@@ -1,0 +1,85 @@
+
+
+
+body {
+    background-color:rgb(248, 248, 248);
+}
+
+article { display: flex;
+    
+}
+
+figure {
+    background-image: url(./coding\ cover.jpg);
+    height: auto;
+    width: auto;
+    
+}
+
+img {
+    max-width: 20%;
+    height: 110%;
+    display:block;
+}
+
+h1 {
+    font-size: 45px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+nav {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    Font-size: 25px;
+    background-color: rgba(27, 19, 138, 0.788);
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    margin: 12px;
+    justify-content: flex-end;
+}
+
+.p1 {
+    display:flex;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items:center;
+}
+
+a {
+    display:flex;
+    padding: 0px 20px;
+    align-items: center;
+    
+    
+}
+
+a:visited {
+    color:blue;
+}
+
+li {
+    display:inline;
+    padding: 0px 20px;
+    text-decoration: underline;
+
+}
+
+li:hover {
+    background-color:rgba(253, 250, 76, 0.774);
+    transform: scale(1.5);
+    
+}
+
+.text-right {
+    text-align: right;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
