@@ -9,6 +9,7 @@ article { display: flex;
     
 }
 
+
 figure {
     background-image: url(./coding\ cover.jpg);
     height: auto;
@@ -29,8 +30,9 @@ h1 {
     text-align: right;
 }
 
+
 nav {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     Font-size: 25px;
     background-color: rgba(27, 19, 138, 0.788);
     display: flex;
@@ -50,12 +52,19 @@ a {
     display:flex;
     padding: 0px 20px;
     align-items: center;
-    
-    
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    text-decoration:none;
 }
 
+
+a:hover {
+    transform: scale(1.15);
+    color: hotpink;
+}
+/* use anchor and anchor visited tags to manipulate colors of nav and footer items*/
 a:visited {
-    color:blue;
+    text-decoration:none;
 }
 
 li {
@@ -74,6 +83,11 @@ li:hover {
 .text-right {
     text-align: right;
 }
+
+.text-left {
+    text-align: left;
+}
+
 
 footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
