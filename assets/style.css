@@ -2,7 +2,7 @@
 
 
 body {
-    background-color:rgb(248, 248, 248);
+    background-color:rgb(8, 8, 8);
 }
 
 article { display: flex;
@@ -12,15 +12,28 @@ article { display: flex;
 
 figure {
     background-image: url(./coding\ cover.jpg);
-    height: auto;
-    width: auto;
+    display:flex;
     
 }
 
 img {
-    max-width: 20%;
-    height: 110%;
-    display:block;
+    
+}
+
+
+.row {
+    display:flex;
+    height:300px;
+    width:300px;
+    padding:10px;
+    margin: 10px;
+    border: 2px solid red;
+    justify-content: space-around;
+    box-shadow: 5px 5px 5px rgba(247, 5, 5, 0.788);
+}
+
+.row:hover {
+    background-color:rgb(255, 255, 255);
 }
 
 h1 {
@@ -28,13 +41,15 @@ h1 {
     padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
+    color: white;
 }
+
 
 
 nav {
     font-family:'Courier New', Courier, monospace;
     Font-size: 25px;
-    background-color: rgba(27, 19, 138, 0.788);
+    background-color: rgba(255, 255, 255, 0.788);
     display: flex;
     padding: 10px 10px 10px 10px;
     margin: 12px;
@@ -46,6 +61,12 @@ nav {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     align-items:center;
+    color: white;
+}
+
+#contactme {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 a {
@@ -53,18 +74,22 @@ a {
     padding: 0px 20px;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    margin: 5px;
+    margin: 20px;
     text-decoration:none;
+    color: black;
+    background-color:red;
+    box-shadow: 4px;
+    font-weight:bolder;
 }
 
 
 a:hover {
     transform: scale(1.15);
-    color: hotpink;
+    color: white;
 }
 /* use anchor and anchor visited tags to manipulate colors of nav and footer items*/
 a:visited {
-    text-decoration:none;
+    text-decoration:black;
 }
 
 li {
