@@ -1,4 +1,4 @@
-# Jaqsen's Portfolio - Challenge Week 2
+# * IN DEVELOPMENT * Jaqsen's Portfolio - Challenge Week 2 * IN DEVELOPMENT *
 
 ## Description
 
@@ -18,7 +18,7 @@ One thing that attracted me to the University of Minnesota's coding bootcamp was
 
 ## View My Work Here ↓
 
-
+https://jaqsentanner.github.io/Challenge-Week-2/
 
 ## Webpage Screenshots ↓
 

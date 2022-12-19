@@ -1,0 +1,47 @@
+html {
+    min-height: 100%;
+    background-image:url(../media/northern_unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    overflow:hidden;
+}
+
+main {
+    display:flex;
+    justify-content: center;
+    padding-top:25px;
+}
+
+.navbar {
+    background:none;
+    padding-bottom: 25px;
+}
+
+.navbar-item-logo {
+    background: url(../media/logo3.png) no-repeat center center;
+    background-size:cover;
+    width: 160px;
+    height:125%;
+}
+
+.navbar-menu {
+    padding-top:5px;
+}
+
+.blockmarg {
+    margin:10px;
+    background: transparent;
+}
+
+.rounded {
+    border-radius: 6px;
+}
+
+.card:hover {
+    transform:scale(1.03);
+}
+
+.font-white {
+    color:white;
+}
+
